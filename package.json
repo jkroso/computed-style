@@ -1,0 +1,25 @@
+{
+  "name": "computed-style",
+  "version": "0.1.0",
+  "description": "create an object representing the computed style values of a DOM element",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "laissez-faire": "*"
+  },
+  "scripts" : {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkroso/computed-style.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkroso/computed-style/issues"
+  },
+  "keywords": ["css","style","cross-browser"],
+  "author": "Jakeb Rosoman",
+  "license": "MIT"
+}
