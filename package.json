@@ -7,9 +7,10 @@
   "devDependencies": {
     "mocha": "*",
     "chai": "*",
-    "laissez-faire": "*"
+    "laissez-faire": "*",
+    "bigfile": "~0.1.3"
   },
-  "scripts" : {
+  "scripts": {
     "test": "make test"
   },
   "repository": {
@@ -19,7 +20,11 @@
   "bugs": {
     "url": "https://github.com/jkroso/computed-style/issues"
   },
-  "keywords": ["css","style","cross-browser"],
+  "keywords": [
+    "css",
+    "style",
+    "cross-browser"
+  ],
   "author": "Jakeb Rosoman",
   "license": "MIT"
 }

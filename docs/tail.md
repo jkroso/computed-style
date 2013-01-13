@@ -1,11 +1,8 @@
 ## Basic Usage
 
 ```javascript
-// example here
+style(document.body) // => {width:'500px', ...}
 ```
-
-## Contributing
-Please do!
 
 ## Release History
 _(Nothing yet)_

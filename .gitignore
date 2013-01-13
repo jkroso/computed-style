@@ -2,4 +2,5 @@
 *.sublime-project
 *.sublime-workspace
 components
+/test/built.js
 build

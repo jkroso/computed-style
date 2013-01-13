@@ -2,20 +2,6 @@ var Promise = require('laissez-faire')
 
 module.exports = function (config) {
 	config.compileTime.handlers.push({
-		if: /\/chai\/error\.js$/,
-		do: function (file) {
-			var p = new Promise
-			var browerVersion = file.path.replace(/error\.js$/, 'browser/error.js')
-			require('fs').readFile(browerVersion, 'utf-8', function (err, src) {
-				if (err) 
-					p.reject(new Error('Unable to load the browser version of chai\'s error module'))
-				console.log('replacing chai')
-				file.text = src
-				p.resolve(file)
-			})
-			return p
-		}
-	}, {
 		if: /\/node_modules\/mocha\/index\.js$/,
 		do: function (file) {
 			var p = new Promise
