@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<title>computed-style test suite</title>
+		<style>
+			#target {
+				width:20px;
+				height:20px;
+				border: 1px solid #ccc;
+				background: #ddd;
+			}
+		</style>
+		<script src="../build/build.js"></script>
+	</head>
+	<body>
+		<div id="target" style="width:100px;height:50px;"></div>
+		<script>
+			function assert(ok, msg){
+				if (!ok) throw new Error(msg || 'failed')
+			}
+			var style = require('computed-style')
+			var c = style(target)
+			assert(c.width == '100px')
+			assert(c.height == '50px')
+			assert(c.borderWidth == '1px') 
+			assert(c.zIndex == 'auto')
+		</script>
+	</body>
+</html>

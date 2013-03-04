@@ -1,9 +1,0 @@
-/.jshintrc
-/.npmignore
-/browser/
-/node_modules/
-/Rakefile
-/tests/
-/glue.js
-*.sublime-project
-*.sublime-workspace

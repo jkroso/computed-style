@@ -2,17 +2,6 @@
   "name": "computed-style",
   "version": "0.1.0",
   "description": "create an object representing the computed style values of a DOM element",
-  "main": "src/index.js",
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "laissez-faire": "*",
-    "bigfile": "~0.1.3"
-  },
-  "scripts": {
-    "test": "make test"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/jkroso/computed-style.git"

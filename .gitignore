@@ -1,6 +1,2 @@
-/node_modules
-*.sublime-project
-*.sublime-workspace
 components
-/test/built.js
 build
