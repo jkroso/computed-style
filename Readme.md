@@ -1,21 +1,14 @@
 # computed-style
 
-Create an object representing the computed style values of a DOM element. Note it does
-not attempt to fix in miscalculated properties due to browser bugs. Doing so would be too inneficient to be useful. Its just a low level shim for getComputedStyle
+Create an object representing the computed style of a DOM element.  
+Note: it does not attempt to fix in miscalculated properties due to browser bugs. Doing so would be too inneficient to be useful. Its just a low level shim for getComputedStyle
 
-## API
+## Example
 
 ```javascript
 var style = require('computed-style')
-```
-## Basic Usage
-
-```javascript
 style(document.body) // => {width:'500px', ...}
 ```
-
-## Release History
-_(Nothing yet)_
 
 ## License
 Copyright (c) 2012 Jakeb Rosoman
