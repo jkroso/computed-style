@@ -15,5 +15,10 @@
     "cross-browser"
   ],
   "author": "Jakeb Rosoman",
-  "license": "MIT"
+  "license": "MIT",
+  "component": {
+    "scripts": {
+      "computed-style/index.js": "index.js"
+    }
+  }
 }
