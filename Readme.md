@@ -1,7 +1,10 @@
 # computed-style
 
 Create an object representing the computed style of a DOM element.  
-Note: it does not attempt to fix in miscalculated properties due to browser bugs. Doing so would be too inneficient to be useful. Its just a low level shim for getComputedStyle
+
+**Note:** computed-style does not attempt to fix miscalculated properties due to browser bugs. 
+Doing so would be too inefficient to be useful. It’s just a low level shim for `getComputedStyle()`.
+
 
 ## Example
 
