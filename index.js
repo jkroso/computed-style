@@ -9,7 +9,7 @@
  */
 
 // Accessing via window for jsDOM support
-module.exports = window.getComputedStyle
+module.exports = window.getComputedStyle.bind(window)
 
 // Fallback to elem.currentStyle for IE < 9
 if (!module.exports) {
